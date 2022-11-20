@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
             CoroutineScope(Dispatchers.IO).launch {
                 try {
                     val data = HttpRequest().makeServiceCall(
-                        "https://api.json-generator.com/templates/mp3AZsJDIeVJ/data",
-                        "uxah16dhee9sr19jd5kob02bloqvr9ld9b0ibkvx")
+                        "https://api.json-generator.com/templates/qjeKFdjkXCdK/data",
+                        "dchj8v1b6qqdjzbqood1jgpachyfzlw58r540gru")
                     withContext(Dispatchers.Main) {
                         try {
                             if(data != null)
